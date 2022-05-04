@@ -11,6 +11,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.dio.santander.bankline.api.dto.NovaMovimentacao;
+
 @Entity
 @Table(name = "tab_movimentacao")
 public class Movimentacao {
